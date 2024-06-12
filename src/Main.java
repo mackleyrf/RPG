@@ -10,5 +10,10 @@ public class Main {
         myCharacter.weapon = "Small Sword";
         myCharacter.armor = "Leather Armor";
         myCharacter.shield = "Wooden Shield";
+        myCharacter.weaponhit = 3;
+        myCharacter.armordefense = 1;
+        myCharacter.shieldblock = 2;
+
+        myCharacter.exibirFichaTecnica();
     }
 }
